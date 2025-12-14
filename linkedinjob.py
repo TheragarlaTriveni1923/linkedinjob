@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.chrome import ChromeDriverManager, ChromeType
 import time
 import os
 from datetime import datetime
@@ -235,4 +235,5 @@ if st.sidebar.button("🚀 SCRAPE JOBS", type="primary"):
 st.info("🔧 **Fixed**: Single driver + dynamic ports + auto-scroll")
 
 st.caption("✅ Production ready | Reset browser anytime [memory:11]")
+
 
