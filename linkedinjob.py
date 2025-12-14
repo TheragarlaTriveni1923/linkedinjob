@@ -15,7 +15,7 @@ import pandas as pd
 
 # Page config
 st.set_page_config(page_title="🔗 LinkedIn Jobs - FIXED", layout="wide")
-st.title("🚀 LinkedIn Job Scraper - CONNECTION FIXED 2025")
+st.title("🚀 LinkedIn Job Scraper ")
 
 # =============================================================================
 # 🔑 YOUR COOKIES
@@ -233,4 +233,5 @@ if st.sidebar.button("🚀 SCRAPE JOBS", type="primary"):
             st.warning("⚠️ No jobs found. Try: Reset Browser → Different keywords")
 
 st.info("🔧 **Fixed**: Single driver + dynamic ports + auto-scroll")
+
 st.caption("✅ Production ready | Reset browser anytime [memory:11]")
