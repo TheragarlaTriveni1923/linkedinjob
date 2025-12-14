@@ -20,16 +20,7 @@ st.title("🚀 LinkedIn Job Scraper ")
 # =============================================================================
 # 🔑 YOUR COOKIES
 # =============================================================================
-COOKIES = {
-    'LI_AT_COOKIE': 'AQEDATiJgtsFU8dAAAABmvSONBQAAAGbGJq4FFYAcyeBvsF2GHt6BjlgKk911Dd7zlX7FdAhcIIlo6YiV42Sgfz3PjAjuI6oqdysJG4XCo5ekJzbAFWI74-IaVCHZJU6lG70LDTkC_3RypnYvdQgSabF',
-    'JSESSIONID': 'ajax:7939693935852710049',
-    'LI_SUGR': '73334de9-fea1-4ab9-a2e2-287ab78bf09a',
-    'LI_RM': 'AQFoHEngezYNBgAAAZol_Xw4bu9wera4DdVzJVbmSKkBX1-loovqcnVVXt7yx1rWLbxHdpjqnrdOvBfKTunZDLsB-VkhuIRIL3nbX1wSaPH13b0e0SAeEPy_',
-    'LIDC': 'b=OB27:s=O:r=O:a=O:p=O:g=6064:u=352:x=1:i=1765039556:t=1765093862:v=2:sig=AQHQYkiIsCHWVuIs8ZRmMiU97FQ7Z7CU',
-    'LIAP': 'true',
-    'LANG': 'v=2&lang=en-us',
-    'LI_THEME': 'light'
-}
+#linked in cookies information need to be past 
 
 # =============================================================================
 # 🛡️ FIXED SELENIUM - NO PORT CONFLICTS
@@ -235,5 +226,6 @@ if st.sidebar.button("🚀 SCRAPE JOBS", type="primary"):
 st.info("🔧 **Fixed**: Single driver + dynamic ports + auto-scroll")
 
 st.caption("✅ Production ready | Reset browser anytime [memory:11]")
+
 
 
