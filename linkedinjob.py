@@ -61,7 +61,7 @@ def get_single_driver():
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option('useAutomationExtension', False)
     
-    service = Service(ChromeDriverManager().install(), 
+    service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install(), 
                      service_args=['--verbose', '--log-path=chromedriver.log'])
     
     _driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -235,3 +235,4 @@ if st.sidebar.button("🚀 SCRAPE JOBS", type="primary"):
 st.info("🔧 **Fixed**: Single driver + dynamic ports + auto-scroll")
 
 st.caption("✅ Production ready | Reset browser anytime [memory:11]")
+
